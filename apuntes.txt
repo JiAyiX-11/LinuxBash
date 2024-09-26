@@ -1,0 +1,156 @@
+//ORDEN ALFABÉTICO//
+
+cat (Ver contenido)
+    -n (lineas numeradas)
+    -b (no numera las lineas vacias)
+
+chage   (Administrar Ususario)
+    -d (Cambia el día de modificación del Contraseña)
+    -E (Fecha de caducidad (Año-Mes-Dia))
+    -I (Dias de Inactivo para Bloquear la cuenta DESPUÉS de CADUCAR (Se quita con -1))
+    -l (Información de la cuenta)
+    -m (Días Mínimo para cambiar Contraseña)
+    -M (Días Máximo para cambiar contraseña)
+    -W (Advertencia en dias antes de caducar contraseña)
+
+
+chmod: (permisos(propietario,grupo,resto))  
+    x (ejecucion) = 1
+    w (escritura) = 2
+    r (lectura)   = 4
+    0 = Ninguno
+    7 = Todos
+
+chown: (Propiedad Usuario)
+    -R (a todos los subdirectorios)
+
+chgrp: (Propiedad Grupo)
+    -R (a todos los subdirectorios)
+
+cp (copiar)
+    -a (mismos permisos)
+    -b (crea una copia en buffer)
+    -d (copia los enlaces simbolicos)
+    -f (sobreescribe si hay uno igual)
+    -i (pregunta antes de copiar)
+    -r (copia toda la raiz)
+    -v (muestra mensaje del proceso)
+
+find (Busca Archivos/direcctorios)
+    ruta
+        . (directorio actual)
+        ~ (carpeta del usuario)
+        / (raiz)
+    -iname (mayuscula minuscula)
+    -type f/d/l (tipo de archivo fichero/directorio/enlace)
+    -size (tamaño)
+    -atime/ctime/mtime (tiempo acceso/cambio/modificacion)
+    -user/group (propiedad o grupo)
+    -perm (permisos)
+    -and (debe cumplir todos)
+    -or (al menos una)
+    -not (negar la condicion anterior)
+    -delete (borrar)
+
+grep (Busca en Contenido)
+    -i (no distingue de las mayuscula e minuscula)
+    -c (solo muestra las líneas que coinciden)
+    -r (busqueda recursiva)
+    -n (muestra la línea que se encontro)
+    -v (muestra las líneas que no coinciden con el patron)
+
+groupadd (añadir grupo)
+    -g (GID especifico)
+    -f (fuerza si existe otro)
+    -K (establece atributos) ej: -K DESC="Ciberseguridad" 
+    -p (contraseña del grupo)
+    -o (GID no unico)
+
+groupmod (modificar grupo)
+    -n (nuevo nombre)
+    -g (cambia el GID)
+    -o (cambia el GID a no unico)
+    -a (agrega usuario)
+    -d (eliminar usuario)
+
+groupdel (borrar grupo)
+    -f (fuerza)
+
+ls (muestra los archivos)
+    -a (mustra archivos ocultos)
+    -l (formato lista)
+
+mkdir (Crear direcctorio)
+    -p (permiter crear subdirectorios)
+    -v (muestra mensaje de cada paso)
+
+mv (Mover/ Renombrar)
+    -i (pregunta antes de cambiar)
+    -v (muestra los pasos)
+
+rmdir (Eliminar)
+    -i (te pregunta altes de Borrar)
+    -d (borrar directorio)
+    -r (borra toda la rama)
+    -v (muestra mensaje)
+    -f (fuerza la borrada)
+
+sorf (Ordena)
+    -n (orden numerico)
+    -r (reverso)
+    -f (ignora mayuscula e minuscula)
+
+Source (actualizar archivo)
+
+stat (Muestra Informacion)
+    -t (muestra fecha y hora)
+    -s (tamaño)
+    -f (numero de dispositivo que se encuentra el archivo)
+    -U (UID del propietario)
+    -G (GID del propietario)
+    -p (permisos)
+
+tar (comprimir)
+    -c (crear nuevo archivo .tar)
+    -v (muestra descriopcion del proceso)
+    -f (nombre del archivo)
+    -x (extracto)
+    -r (añade archivo)
+    -C (ruta especifico)
+    -t (listar)
+
+Uniq    (Busca Repeticion)
+    -u (palabras no repetidas)
+    -d (palabras con repeticion)
+    -D (elimina las filas sin repeticion)
+    -c (Cuenta cuantas repeticiones hay)
+
+Useradd (añadir usuario)
+    -g (grupo principal)
+    -G (grupo secundario)
+    -d (carpeta home)
+    -u (especificar el UID)
+    -p (contraseña)
+    -c ("comentario")
+
+usermod (modificar usuario)
+    -c ("nuevo comentario")
+    -d (nuevo valor del direcctorio principal)
+    -g (agregar al grupo inicial)
+    -G (agregar a grupos secundarios)
+    -L (seshabilitar)
+    -p (nueva contraseña)
+    -u (nuevo UID)
+    -U (Habilitar)
+
+wc (Contador de contenido)
+    -l (lineas)
+    -w (palabras)
+    -m (caracteres)
+
+wget (Descargar Archivos sobre una URL)
+    -
+
+xargs   (Comandeo a varios)
+    -L 1 (Por fila)
+    -N 1 (escribes todo en una fila)
