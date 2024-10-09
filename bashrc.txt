@@ -171,6 +171,12 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
 
+#exa
+alias ls='exa  --icons'
+alias l='exa  --icons -l'
+alias ll='exa -lbhHFGmuSa --group-directories-first'
+alias lt='exa --tree --icons'
+
 #comprimir
 alias comprimir='tar -cf'
 alias descomprimir='tar -xf'
