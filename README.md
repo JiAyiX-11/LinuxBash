@@ -5,4 +5,4 @@
 - ./inst.sh
 
 # Paso 3:
-- source .bashrc
+- source ~/.bashrc
