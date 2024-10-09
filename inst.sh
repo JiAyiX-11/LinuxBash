@@ -23,7 +23,7 @@ case $num in
         echo "Escribe de nuevo";;
 esac
 done
-
+clear
 
 
 
