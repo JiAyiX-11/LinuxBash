@@ -3,3 +3,6 @@
 
 # Paso 2:
 - ./inst.sh
+
+# Paso 3:
+- source .bashrc
