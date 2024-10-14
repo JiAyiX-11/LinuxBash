@@ -1,5 +1,3 @@
-@echo off
-
 while true
 do
 clear
