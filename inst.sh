@@ -5,9 +5,9 @@ do
 clear
 
 echo Inicial:
-echo -e '\t' 1. Instalar paquetes
-echo -e '\t' 2. Personalización JiAyi
-echo -e '\t' 3. Salir
+echo  '\t' 1. Instalar paquetes
+echo  '\t' 2. Personalización JiAyi
+echo  '\t' 3. Salir
 read -p "Escribe el numero: " num
 case $num in
     1)  #PAQUETES
